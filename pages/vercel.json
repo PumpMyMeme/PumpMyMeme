@@ -1,0 +1,5 @@
+{
+  "rewrites":[{"source":" /","destination":"/"}],
+  "routes":[{"handle":"filesystem"},{"src":"/api/.*","dest":"/api"}],
+  "build": {"env": ["TG_TOKEN","TG_CHAT","TW_BEARER"]}
+}
